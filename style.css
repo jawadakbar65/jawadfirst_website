@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffff;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.element {
+    border: 1px solid #333;
+    padding: 5px;
+    font-size: 12px;
+    background: white;
+}
+
+.alkali-metal { background: #ff6666; }
+.alkaline-earth { background: #ffdead; }
+.transition { background: #ffc0cb; }
+.post-transition { background: #cccccc; }
+.metalloid { background: #adff2f; }
+.nonmetal { background: #90ee90; }
+.halogen { background: #87cefa; }
+.noble-gas { background: #dda0dd; }
+.lanthanide { background: #ffbfff; }
+.actinide { background: #ff99cc; }
